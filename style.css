@@ -207,7 +207,7 @@ body {
     display: none;
   }
   .login-button {
-    margin-left: 280px;
+    margin-left: 220px;
     margin-top: 25px;
     cursor: pointer;
   }
@@ -222,7 +222,8 @@ body {
     margin-bottom: 50px;
   }
   .banner-image img {
-    width: 380px;
+    width: 300px;
+    margin-right: 0;
   }
   .player-cards-container {
     display: grid;
