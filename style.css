@@ -160,7 +160,6 @@ body {
 }
 .subscription-form-container input {
   padding: 10px 120px;
-  text-transform: uppercase;
   border-radius: 30px;
   border-style: none;
   border: 1px solid #ff0a54;
@@ -200,10 +199,9 @@ body {
 /* End of footer */
 
 /* MEDIA SCREEN */
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 768px) {
   .top-banner {
     margin-left: 100px;
-    margin-right: 100px;
   }
   .nav-container a {
     display: none;
@@ -283,7 +281,7 @@ body {
     font-size: 20px;
   }
   .subscription-form-container input {
-    width: 78px;
+    width: 58px;
   }
   .footer-logo-container img {
     width: 250px;
@@ -292,7 +290,7 @@ body {
     font-size: 25px;
   }
 }
-@media screen and (min-width: 580px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .nav-container {
     margin-left: 5%;
   }
